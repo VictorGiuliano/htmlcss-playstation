@@ -1,6 +1,9 @@
 header{
     background-color: darkgrey;
 }
+footer{
+    background-color: rgba(0,67,156,255);
+}
 .header-top{
     color: white;
     background-color: black;
