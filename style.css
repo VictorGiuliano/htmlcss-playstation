@@ -1,0 +1,15 @@
+header{
+    background-color: darkgrey;
+}
+.header-top{
+    color: white;
+    background-color: black;
+}
+.navbar{
+    height: 100%;
+    background-color: indianred;
+}
+.in-evidenza{
+    background-color: aqua;
+    min-height: 200px;
+}
