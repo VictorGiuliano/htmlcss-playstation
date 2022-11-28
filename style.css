@@ -30,3 +30,10 @@ footer{
 .bkg-dblu{
     background-color: rgba(22,28,59,255);
 }
+.pic{
+    height: 30px;
+    width: 50px;
+}
+.pic img{
+    max-height: 100%;
+}
