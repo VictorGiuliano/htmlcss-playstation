@@ -35,6 +35,9 @@ footer{
 .bkg-grey{
     background-color: rgba(190,188,187,255);
 }
+.bkg-lgrey{
+    background-color: rgba(217,218,220,255);
+}
 .bkg-dblu{
     background-color: rgba(22,28,59,255);
 }
@@ -55,17 +58,34 @@ footer{
 .vikcontainer img{
     height: 100%;
 }
-.context{
+#context{
     max-width: 438px;
 }
+.ps-service{
+    width:300px;
+}
+.ps-service img{
+    max-width: 100%;
+}
+.con-service{
+    height: 250px;
+    width: auto;
+}
+.con-service img{
+    max-height: 100%;
+}
+.spazio-sotto{
+    padding:20px 0;
+}
+
 
 @media screen and (min-width:1156px){
-    .context{
+    #context{
          max-width: 361.77px;
 }
 }
 @media screen and (min-width:1495px){
-    .context{
+    #context{
         max-width: 100%;
     }
 }
