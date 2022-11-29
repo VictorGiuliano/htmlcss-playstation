@@ -13,8 +13,13 @@ footer{
     background-color: indianred;
 }
 .in-evidenza{
-    background-color: aqua;
-    min-height: 500px;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 400px;
+}
+#jumbo{
+    background-image: url('img/jumbo-bg.png');
 }
 .x-img{
     min-height: 100px;
@@ -29,6 +34,9 @@ footer{
 }
 .bkg-dblu{
     background-color: rgba(22,28,59,255);
+}
+.bkg-red{
+    background-color: rgba(205,61,15,255);
 }
 .pic{
     height: 30px;
