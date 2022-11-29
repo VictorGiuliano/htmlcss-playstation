@@ -55,3 +55,17 @@ footer{
 .vikcontainer img{
     height: 100%;
 }
+.context{
+    max-width: 438px;
+}
+
+@media screen and (min-width:1156px){
+    .context{
+         max-width: 361.77px;
+}
+}
+@media screen and (min-width:1495px){
+    .context{
+        max-width: 100%;
+    }
+}
