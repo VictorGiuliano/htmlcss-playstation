@@ -16,10 +16,13 @@ footer{
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 400px;
 }
 #jumbo{
     background-image: url('img/jumbo-bg.png');
+    padding-top: 400px;
+}
+#duble-jumbo{
+    background-image: url('img/it-takes-two-hero-banner-desktop.jpg');
 }
 .x-img{
     min-height: 100px;
@@ -39,8 +42,8 @@ footer{
     background-color: rgba(205,61,15,255);
 }
 .pic{
-    width: 50px;
     height: auto;
+    width: 50px;
 }
 .pic img{
     max-height: 100%;
