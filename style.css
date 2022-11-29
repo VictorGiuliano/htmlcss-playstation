@@ -111,6 +111,9 @@ li > a{
     color: white;
     text-decoration: none;
 }
+a{
+    color: white;
+}
 
 @media screen and (min-width:577px){
     .spazio{
