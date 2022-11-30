@@ -67,9 +67,6 @@ header{
     height: 55%;
     width: auto;
 }
-.vikcontainer img{
-    max-height: 100%;
-}
 #context{
     max-width: 438px;
 }
