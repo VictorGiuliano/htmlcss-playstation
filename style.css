@@ -64,7 +64,11 @@ header{
 #duble-jumbo{
     background-image: url('img/it-takes-two-hero-banner-desktop.jpg');
 }
+/* Nascondi */
 
+.hidden{
+    visibility: hidden;
+}
 /****************Porta-Immagini + Porta-testo *****************/
 .pic{
     height: auto;
@@ -128,6 +132,11 @@ a{
 @media screen and (min-width:577px){
     .spazio{
         padding:30px 0;
+    }
+}
+@media screen and (min-width:767px){
+    .hidden{
+        visibility: visible;
     }
 }
 @media screen and (min-width:1153px){
