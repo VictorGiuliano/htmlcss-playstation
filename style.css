@@ -6,6 +6,7 @@ header{
 }
 footer{
     background-color: rgba(0,67,156,255);
+    padding-bottom:100px;
 }
 .navbar{
     flex-grow: 1;
