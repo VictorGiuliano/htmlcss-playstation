@@ -1,46 +1,6 @@
+/******************GENERAL ***********************************/
 body{
     font-family: 'Roboto', sans-serif;
-}
-header{
-    background-color:rgba(194,194,194,0.1)
-}
-footer{
-    background-color: rgba(0,67,156,255);
-    padding-bottom:100px;
-}
-.navbar{
-    flex-grow: 1;
-}
-.pic-header{
-    width: 50px;
-}
-.pic-header img{
-    max-width: 100%;
-}
-.header-top{
-    color: white;
-    background-color: black;
-}
-.navbar{
-    height: 100%;
-    background-color: indianred;
-}
-.in-evidenza{
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-#jumbo{
-    background-image: url('img/jumbo-bg.png');
-    padding-top: 400px;
-}
-#duble-jumbo{
-    background-image: url('img/it-takes-two-hero-banner-desktop.jpg');
-}
-.x-img{
-    min-height: 100px;
-    min-width: 150px;
-    border:1px solid black;
 }
 .bkg-black{
     background-color: rgba(48,48,48,255);
@@ -60,6 +20,42 @@ footer{
 .bkg-white{
     background-color: rgba(255,255,255,255);
 }
+/*******************HEADER + NAVBAR**************************/
+header{
+    background-color:rgba(194,194,194,0.1)
+}
+.navbar{
+    flex-grow: 1;
+}
+.pic-header{
+    width: 50px;
+}
+.pic-header img{
+    max-width: 100%;
+}
+.header-top{
+    color: white;
+    background-color: black;
+}
+.navbar{
+    height: 100%;
+    background-color: indianred;
+}
+/****************JUMBOTRON ******************************/
+.in-evidenza{
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#jumbo{
+    background-image: url('img/jumbo-bg.png');
+    padding-top: 400px;
+}
+#duble-jumbo{
+    background-image: url('img/it-takes-two-hero-banner-desktop.jpg');
+}
+
+/****************Porta-Immagini + Porta-testo *****************/
 .pic{
     height: auto;
     width: 50px;
@@ -72,7 +68,7 @@ footer{
     width: auto;
 }
 .vikcontainer img{
-    height: 100%;
+    max-height: 100%;
 }
 #context{
     max-width: 438px;
@@ -89,8 +85,14 @@ footer{
 .con-service img{
     max-height: 100%;
 }
+/**************Regole Padding ****************/
 .spazio-sotto, .spazio{
     padding:20px 0;
+}
+/**************FOOTER ************************/
+footer{
+    background-color: rgba(0,67,156,255);
+    padding-bottom:100px;
 }
 .pic-fot{
     height: 100px;
@@ -115,7 +117,7 @@ li > a{
 a{
     color: white;
 }
-
+/*******************MEDIA QUERY **************************/
 @media screen and (min-width:577px){
     .spazio{
         padding:30px 0;
